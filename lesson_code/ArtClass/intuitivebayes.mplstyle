@@ -1,0 +1,100 @@
+# https://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+
+## ***************************************************************************
+## * FIGURE                                                                  *
+## ***************************************************************************
+
+figure.facecolor:   None    # broken white outside box
+figure.edgecolor:   None    # broken white outside box
+
+figure.titlesize:   18.0    # size of the figure title (``Figure.suptitle()``)
+figure.titleweight: bold    # weight of the figure title
+
+## ***************************************************************************
+## * FONT                                                                    *
+## ***************************************************************************
+
+font.family:    Arial  # Montserrat has opacity issues
+font.style:     normal
+font.variant:   normal
+font.weight:    normal
+font.stretch:   normal
+font.size:      25.0
+
+text.color:     2F3645
+
+## ***************************************************************************
+## * LINES AND SCATTER                                                       *
+## ***************************************************************************
+
+lines.markersize:      6        # marker size, in points
+lines.linewidth:       4        # line width in points
+scatter.marker:        .        # The default marker type for scatter plots.
+
+## ***************************************************************************
+## * AXES                                                                    *
+## ***************************************************************************
+
+axes.facecolor:         None        # axes background color
+axes.edgecolor:         DFDFDF      # axes edge color
+axes.linewidth:         0.5         # edge line width
+
+axes.grid:              True        # show grid
+axes.grid.axis:         y           # which axis the grid should apply to
+axes.grid.which:        major       # grid lines at {major, minor, both} ticks
+axes.axisbelow:         True        # keep grid layer in the back
+
+grid.color:             DFDFDF      # grid color
+grid.linestyle:         -           # solid
+grid.linewidth:         0.8         # in points
+grid.alpha:             1.0         # transparency, between 0.0 and 1.0
+
+axes.spines.right:      False       # do not show right spine
+axes.spines.top:        False       # do not show top spine
+
+axes.titlesize:         25.0        # font size of the axes title
+axes.titleweight:       bold        # font weight of title
+axes.titlepad:          12.0        # pad between axes and title in points
+axes.titlelocation:     center
+
+axes.labelsize:         25.0        # font size of the x and y labels
+axes.labelpad:          6.0         # space between label and axis
+axes.labelweight:       normal      # weight of the x and y labels
+axes.labelcolor:        2F3645
+
+xtick.labelsize:        20.0        # fontsize of the tick labels
+ytick.labelsize:        20.0        # fontsize of the tick labels
+
+# blue      yellow      green       lt blue     red
+# purple    lt purple   dk green    slate       pink
+axes.prop_cycle: cycler(color=['0078ee','fbc02d','00eeb2','9bddfb','ff6651','709CC7','9b99f8','00b385','F7BB83','EFD9CE'])
+
+
+## ***************************************************************************
+## * TICKS                                                                   *
+## ***************************************************************************
+
+xtick.top:          False
+xtick.bottom:       False
+
+ytick.left:         False
+ytick.right:        False
+
+xtick.color:        2F3645
+ytick.color:        2F3645
+
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+
+legend.framealpha:  0.5
+legend.frameon:     False   # do not draw on background patch
+legend.fancybox:    False   # do not round corners
+legend.fontsize:    18
+
+## ***************************************************************************
+## * SAVING FIGURES                                                          *
+## ***************************************************************************
+
+savefig.transparent:   True    # save with transparent background
