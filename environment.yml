@@ -1,0 +1,24 @@
+name: ib_gp2
+channels:
+  - conda-forge
+dependencies:
+  - arviz=0.15.1
+  - black-jupyter
+  - isort=5.10.1
+  - jupyter_contrib_nbextensions=0.5.1
+  - jupyter_nbextensions_configurator=0.4.1
+  - jupyter=1.0.0
+  - jupyterlab=3.4.3
+  - jupytext=1.13.8
+  - jax
+  - matplotlib
+  - numpy
+  - pandas=1.4.2
+  - pip=22.1.2
+  - pymc==4.0.1
+  - python-graphviz=0.20
+  - python=3.10.4
+  - rise=5.7.1
+  - scipy=
+  - seaborn=0.11.2
+  - statsmodels==0.13.2
